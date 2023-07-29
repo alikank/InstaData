@@ -33,10 +33,10 @@ Daha sonrasında komut satırına :
 
 | Yöntem | Argüman     | Açıklama                |
 | :-------- | :------- | :------------------------- |
-| `insta.login()` |  | giriş işlemini gerçekleştirir. |
-| `insta.getFollowers()` |  | takipçi listesini elde eder. |
-| `insta.getFollowing()` |  | takip edilen listesini elde eder. |
-| `InstaData.getUnfollowers(data,data2)` | `data : followers, data2 : following` | sizi takip etmeyenleri elde eder. |
+| `login()` |  | giriş işlemini gerçekleştirir. |
+| `getFollowers()` |  | takipçi listesini elde eder. |
+| `getFollowing()` |  | takip edilen listesini elde eder. |
+| `getUnfollowers(data,data2)` | `data : followers, data2 : following` | sizi takip etmeyenleri elde eder. |
 
 
 
