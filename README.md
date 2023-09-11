@@ -6,7 +6,7 @@ Bu proje herhangi bir api kullanmadan instagram hesabınızdaki takipçi listesi
 ## Gereksinimler
 
 - Python
-- Selenium
+- selenium==4.0.0b3
 - Chrome Web Driver
 
   
