@@ -38,7 +38,7 @@ class InstaData:
 
         users = self.driver.find_elements_by_css_selector("div.x1dm5mii.x16mil14.xiojian.x1yutycm.x1lliihq.x193iq5w.xh8yej3")
         for user in users:
-            nickname = user.find_element_by_css_selector("div.x9f619.xjbqb8w.x1rg5ohu.x168nmei.x13lgxp2.x5pf9jr.xo71vjh.x1n2onr6.x1plvlek.xryxfnj.x1c4vz4f.x2lah0s.x1q0g3np.xqjyukv.x6s0dn4.x1oa3qoh.x1nhvcw1").text
+            nickname = user.find_element_by_css_selector("span._aacl._aaco._aacw._aacx._aad7._aade").text
             self.followers.append(nickname)
         return self.followers
     
@@ -62,7 +62,7 @@ class InstaData:
 
         users = self.driver.find_elements_by_css_selector("div.x1dm5mii.x16mil14.xiojian.x1yutycm.x1lliihq.x193iq5w.xh8yej3")
         for user in users:
-            nickname = user.find_element_by_css_selector("div.x9f619.xjbqb8w.x1rg5ohu.x168nmei.x13lgxp2.x5pf9jr.xo71vjh.x1n2onr6.x1plvlek.xryxfnj.x1c4vz4f.x2lah0s.x1q0g3np.xqjyukv.x6s0dn4.x1oa3qoh.x1nhvcw1").text
+            nickname = user.find_element_by_css_selector("span._aacl._aaco._aacw._aacx._aad7._aade").text
             self.following.append(nickname)
         return self.following
     
